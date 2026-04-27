@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://api.iconify.design/twemoji:page-facing-up.svg"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates and features.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "bestSeller",
+    "features": ["100+ templates", "AI suggestions", "Cover letter builder"],
+    "icon": "https://api.iconify.design/twemoji:star.svg"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Plan",
+    "description": "Monthly subscription to improve your job application success.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited resumes", "Job tracking", "Interview tips"],
+    "icon": "https://api.iconify.design/twemoji:chart-increasing.svg"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios with ease.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Drag & drop editor", "Responsive design"],
+    "icon": "https://api.iconify.design/twemoji:artist-palette.svg"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Pack",
+    "description": "Get ready for interviews with guided practice sessions.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "Common Q&A", "Feedback reports"],
+    "icon": "https://api.iconify.design/twemoji:studio-microphone.svg"
+  },
+  {
+    "id": 6,
+    "name": "Ultimate Career Suite",
+    "description": "All-in-one yearly package for career growth.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "bestSeller",
+    "features": [
+      "All tools included",
+      "Priority support",
+      "Exclusive templates"
+    ],
+    "icon": "https://api.iconify.design/twemoji:trophy.svg"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile visibility and reach.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile analysis", "Keyword optimization", "Growth insights"],
+    "icon": "https://api.iconify.design/logos:linkedin-icon.svg"
+  },
+  {
+    "id": 8,
+    "name": "Cover Letter Pro",
+    "description": "Generate tailored cover letters in minutes.",
+    "price": 5.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom templates", "AI writing assistant", "Export options"],
+    "icon": "https://api.iconify.design/twemoji:envelope-with-arrow.svg"
+  }
+]
