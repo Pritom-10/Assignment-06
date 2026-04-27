@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar cart={cart}></Navbar>
       <Hero></Hero>
 
       <div className="tabs tabs-box justify-center bg-transparent">
