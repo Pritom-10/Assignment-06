@@ -3,6 +3,12 @@ import Cart from './Cart/Cart'
 import Hero from './Hero/Hero'
 import Navbar from './Navbar/navbar'
 import Premium_Tools from './Premium_Tools/Premium_Tools'
+import Steps from './Cart_Steps/Steps'
+import Transparent from './Transparent/Transparent'
+import Footer from './Footer/Footer'
+// import Transparent from './Transparent/Transparent'
+// import Workflow from './Workflow/Workflow'
+// import Footer from './Footer/Footer'
 const getProductsData = async() => {
   const res = await fetch('/public/module.json')
   return res.json()
@@ -43,6 +49,11 @@ function App() {
       )}
 
       {active === 'cart' && <Cart cart={cart} setCart={setCart}></Cart>}
+
+       <Steps></Steps>
+      <Transparent/>
+      {/* <Workflow></Workflow> */}
+      <Footer/>
     </>
   );
 }
