@@ -1,161 +1,143 @@
 # 🎯 A-6 Digital Tools Buying Website
 
-## 📅 Deadlines
-- 60 Marks: 1st April, 2026 (11:59 PM ⏱️)  
-- 50 Marks: No Deadline for 50 marks.  
-- 30 Marks: Any time after 1st April.  
+## 📌 Project Overview
+This project is a fully responsive **Digital Tools Buying Website** built using modern frontend technologies. Users can browse digital products, view details, and manage a shopping cart with real-time updates and interactive notifications.
+
+The design follows Figma guidelines and focuses on clean UI and smooth user experience.
 
 ---
 
----
+## Live demo
 
-## 🚫 Key Rules
-- Don't ask about mark distribution in the group. We don't provide it.  
-- Don't post assignment feedback after you receive it. If you face any problem or have any complaints then join a support session and discuss it.  
-- Don’t use any lorem ipsum text, rather use relevant and meaningful text content.  
-- You can change the color if you want but remember that it should not be a gobindo color.  
-- Use at least 8 git commits with meaningful messages.  
 
----
-
-## 🧩 Features & Requirements
+## 🚀 Features
 
 ### 🧭 Navbar
-- Navbar designed according to Figma  
-- Cart icon displayed (initially empty)  
+- Responsive Figma-based design  
+- Cart icon with dynamic product count  
 
----
-
-### 🎯 Banner
-- Banner section includes:
-  - Heading  
-  - Description text  
-  - Image  
-  - Buttons  
-
----
+### 🎯 Banner Section
+- Heading, description, image  
+- Call-to-action buttons  
 
 ### 📊 Stats Section
-- Stats section designed based on Figma  
+- Structured stats layout based on Figma  
+
+### 🔄 Toggle System
+- Switch between **Products** and **Cart**
+- Default view: Products  
+- Empty message shown when cart is empty  
 
 ---
 
-### 🔄 Main Section & Toggling
-- Design  2 buttons at the center of the section.
-- By clicking Cart,  the cart section will be shown. By default it will show an empty message.
-- By Clicking  Product,  the Products section will be shown. 
-- By Default product section will be visible. 
-
-
----
-
-### 📦 JSON Data
-Create 6–10 product data with:
-- id  
-- name  
-- description  
-- price  
-- period (one-time / monthly / yearly)  
-- tag ( example- popular, new, best seller) 
-- tagType ( example- popular, new, best seller) 
-- features ( array. Example:  ["100+ templates", "ATS optimization", "Export to PDF"] )   
-- icon  
-
-🚩 You can take help of AI Systems for generating a JSON Data
-
----
+## 📦 Product System
 
 ### 🃏 Product Cards
-- Display all products in a 3-column layout  
-- Each card includes:
+- 3-column responsive layout  
+- Includes:
   - Name  
   - Description  
   - Price  
-  - Period  
-  - TagType  
-  - Features  
+  - Period (one-time / monthly / yearly)  
+  - Tag (popular / new / best seller)  
+  - Features list  
   - Icon  
   - Buy Now button  
 
----
-
-### 🛒 Cart Functionality
-- Show selected products in cart  
-- Display total product count in navbar  
-- Cart layout: 1 column  
-- Each cart item includes:
-  - Name  
-  - Icon  
-  - Price  
-  - Remove button  
-- "Proceed to Checkout" button:
-  - Clears all cart items  
+### 📁 JSON Data
+- 6–10 structured product items  
+- Meaningful real content (no lorem ipsum)
 
 ---
 
-### 🪜 Steps Section
-- Designed according to Figma  
+## 🛒 Cart Functionality
+
+- Add products to cart  
+- Remove individual items  
+- View selected products  
+- Dynamic cart count in navbar  
+
+### ✅ Checkout System
+- "Proceed to Checkout" button  
+- Clears all cart items  
+- Resets cart state  
 
 ---
 
-### 💰 Pricing Section
-- Designed according to Figma  
+## 🔔 Notifications
+
+- Implemented using **React Toastify**  
+- Alerts for:
+  - Add to cart  
+  - Remove item  
+  - Checkout  
 
 ---
 
-### 🦶 Footer
-- Footer designed based on Figma  
+## 🪜 Additional Sections
+- Steps Section  
+- Pricing Section  
+- Footer (Figma-based design)  
 
 ---
 
-### 📱 Responsive Design
-- Fully responsive across devices  
-- Follow standard responsive practices  
+## 📱 Responsive Design
+- Fully responsive for:
+  - Mobile  
+  - Tablet  
+  - Desktop  
 
 ---
-
-# 🚀 Challenges Part 
-
-### 🔔 Use a NPM Package React-Toastify
-- Use react toastify to show all the alerts of add to cart, remove, and proceed to checkout. 
-
-
----
-
-### ❌ Implement Selected product remove functionality 
-- On Click Remove Button product will remove from cart section.
-
-- In this section the total of the selected products ( added on the carts) will show here. 
-- Proceed to checkout button will remove all the products from the cart  
-
-
-
----
-
-### 📂 GitHub Repository
-- Create Beautiful Github Readme with following description
-    - Name of your  Project
-    - A little Description
-    - Technology that you use
-    - 3 Features about your project. 
- 
-
----
-## Optional Features: 
-
-1. When you click on a product it increases the cart count in the Navbar and clears it when you click on the proceed to checkout button. 
-2. When clicking on the Buy now Button it shows an “Added to cart” message on the button. 
-
 
 ## ⚙️ Technologies Used
+
 - React.js  
-- Tailwind CSS, DaisyUI 
+- Tailwind CSS  
+- DaisyUI  
 - JavaScript (ES6+)  
-- React-Toastify (NPM Package)  
-- JSON (for product data)  
+- React-Toastify  
+- JSON  
 
 ---
 
-## 📤 What to submit:
-- GitHub Repository Link:
-- Live Site Link:
+## ✨ Key Features
+
+- Real-time cart update system  
+- Toggle between product and cart view  
+- Toast notifications for user actions  
+
+---
+
+## 🌟 Extra Features
+
+- Cart count updates instantly  
+- Cart clears after checkout  
+- "Added to cart" feedback on button click  
+
+---
+
+## 📌 Future Improvements
+
+- User authentication system  
+- Payment gateway integration  
+- Product search and filtering  
+
+## 📋 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   ```
+
+2. Install dependencies:
+```bash
+ npm install
+ ```
+3. Start the development server:
+
+```bash
+npm run dev
+```
+--- 
+
+## Author
+### **Pritom Barua Shiro**
