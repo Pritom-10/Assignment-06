@@ -100,7 +100,8 @@ const Transparent = () => {
           </div>
         </div>
         <div>
-          <div className="card w-full bg-base-100 shadow-sm bg-linear-to-r from-blue-500 to-purple-500 ">
+          <div className="card w-full bg-base-100 shadow-sm bg-linear-to-r from-blue-500 to-purple-500 relative ">
+            <button className="text-[#BB4D00] bg-[#FEF3C6] w-3/5 rounded-full p-1 absolute -top-3 left-10">Most Poular</button>
             <div className="card-body">
               <div className="space-y-2 mt-2">
                 <h2 className="text-3xl font-bold text-white">Pro</h2>

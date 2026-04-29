@@ -14,7 +14,7 @@ const Steps = () => {
       </p>
       <div className="w-10/12 mx-auto flex items-center justify-center gap-10 py-18">
         <div className="card w-full bg-base-100 shadow-sm relative">
-          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-full w-1.5 absolute right-2 top-2">
+          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-full absolute right-2 top-2 flex justify-center items-center w-10 h-10">
             01
           </p>
           <div className="flex flex-col items-center mt-10 mb-5 p-10">
@@ -29,7 +29,7 @@ const Steps = () => {
           </div>
         </div>
         <div className="card w-full bg-base-100 shadow-sm relative">
-          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-full w-1.5 absolute right-2 top-2">
+          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-full absolute right-2 top-2 flex justify-center items-center w-10 h-10">
             02
           </p>
           <div className="flex flex-col items-center mt-10 mb-5 p-10">
@@ -43,7 +43,7 @@ const Steps = () => {
           </div>
         </div>
         <div className="card w-full bg-base-100 shadow-sm relative">
-          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2   rounded-full w-1.5 absolute right-2 top-2">
+          <p className="bg-linear-to-r from-blue-500 to-purple-500 text-white px-5 py-2   rounded-full absolute right-2 top-2 flex justify-center items-center w-10 h-10">
             03
           </p>
           <div className="flex flex-col items-center mt-10 mb-5 p-10">
