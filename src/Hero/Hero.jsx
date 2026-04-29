@@ -5,7 +5,7 @@ import play from '../assets/play.png'
 const Hero = () => {
   return (
     <div>
-      <div className="flex justify-between items-center mt-36 w-10/12 mx-auto">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mt-36 w-10/12 mx-auto gap-8 lg:gap-0 md:flex-row md:justify-center md:items-center">
         <div className="flex flex-col">
           <div className="cursor-pointer flex gap-2.5 rounded-[100px] bg-[#e1e7ff]  px-2 py-3 items-center w-62">
             <div>
@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <p className="text-[72px] font-bold">
+            <p className="lg:text-[72px] font-bold text-3xl md:text-5xl">
               Supercharge Your <br /> Digital Workflow
             </p>
           </div>
@@ -47,16 +47,18 @@ const Hero = () => {
       </div>
       <div className="bg-linear-to-r from-blue-500 to-purple-500 flex justify-around mt-15 mb-22">
         <div className="py-12 text-center space-y-2">
-          <p className="text-6xl font-extrabold text-white">50K+</p>
-          <p className="text-white text-2xl font-medium">Active Users</p>
+          <p className="lg:text-6xl text-3xl font-extrabold text-white">50K+</p>
+          <p className="text-white lg:text-2xl font-medium">Active Users</p>
         </div>
         <div className="py-12 text-center space-y-2">
-          <p className="text-6xl font-extrabold text-white">200+</p>
-          <p className="text-white text-2xl font-medium">Premium Tools</p>
+          <p className="lg:text-6xl text-3xl  font-extrabold text-white">
+            200+
+          </p>
+          <p className="text-white lg:text-2xl font-medium">Premium Tools</p>
         </div>
         <div className="py-12 text-center space-y-2">
-          <p className="text-6xl font-extrabold text-white">4.9</p>
-          <p className="text-white text-2xl font-medium">Rating</p>
+          <p className="lg:text-6xl text-3xl  font-extrabold text-white">4.9</p>
+          <p className="text-white lg:text-2xl font-medium">Rating</p>
         </div>
       </div>
     </div>

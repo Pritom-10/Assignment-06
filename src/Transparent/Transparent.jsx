@@ -3,13 +3,13 @@ import React from 'react';
 const Transparent = () => {
   return (
     <div className="w-11/12 space-y-10 mt-22">
-      <h2 className="text-center text-5xl font-bold">
+      <h2 className="text-center text-2xl lg:text-5xl font-bold md:text-4xl">
         Simple, Transparent Pricing
       </h2>
       <p className="text-[#627382] text-center">
         Choose the plan that fits your needs. Upgrade or downgrade anytime.
       </p>
-      <div className="flex gap-10 w-10/12 mx-auto justify-center">
+      <div className="flex gap-10 w-10/12 mx-auto justify-center lg:flex-row flex-col">
         <div>
           <div className="card w-full bg-base-100 shadow-sm">
             <div className="card-body">
@@ -101,7 +101,7 @@ const Transparent = () => {
         </div>
         <div>
           <div className="card w-full bg-base-100 shadow-sm bg-linear-to-r from-blue-500 to-purple-500 relative ">
-            <button className="text-[#BB4D00] bg-[#FEF3C6] w-3/5 rounded-full p-1 absolute -top-3 left-10">Most Poular</button>
+            <button className="text-[#BB4D00] bg-[#FEF3C6] w-3/5 rounded-full p-1 absolute -top-3 left-15 lg:left-10 md:left-35">Most Poular</button>
             <div className="card-body">
               <div className="space-y-2 mt-2">
                 <h2 className="text-3xl font-bold text-white">Pro</h2>

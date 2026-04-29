@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Cart from './Cart/Cart'
 import Hero from './Hero/Hero'
-import Navbar from './Navbar/navbar'
+import Navbar from './Navbar/Navbar'
 import Premium_Tools from './Premium_Tools/Premium_Tools'
 import Steps from './Cart_Steps/Steps'
 import Transparent from './Transparent/Transparent'
@@ -25,7 +25,7 @@ function App() {
       <Hero></Hero>
 
       <div className="text-center space-y-4 mb-4">
-        <h2 className="text-5xl font-extrabold">Premium Digital Tools</h2>
+        <h2 className="lg:text-5xl text-2xl font-extrabold">Premium Digital Tools</h2>
         <p className="text-[#627382]">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.

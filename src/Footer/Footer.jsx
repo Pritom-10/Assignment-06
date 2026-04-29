@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-[#101727]">
       <div className=" w-11/12 mx-auto mt-10 pt-20">
-        <div className="text-white flex justify-between">
+        <div className="text-white md:grid-cols-5 lg:flex justify-between grid grid-cols-2 gap-10 lg:gap-0">
           <div className="space-y-4">
             <h1 className="text-3xl font-bold">DigiTools</h1>
             <p className="opacity-55">
