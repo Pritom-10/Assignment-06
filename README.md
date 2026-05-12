@@ -8,7 +8,7 @@ The design follows Figma guidelines and focuses on clean UI and smooth user expe
 ---
 
 ## Live demo
-
+https://6ass.netlify.app
 
 ## 🚀 Features
 
@@ -125,7 +125,7 @@ The design follows Figma guidelines and focuses on clean UI and smooth user expe
 ## 📋 Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/Pritom-10/Assignment-06.git
    ```
 
 2. Install dependencies:
